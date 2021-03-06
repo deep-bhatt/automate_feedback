@@ -68,4 +68,3 @@ if __name__ == '__main__':
 
     do_job(click_theory)
     do_job(click_pracs)
-
