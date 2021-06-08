@@ -3,7 +3,7 @@ gecko_filename="gecko_tar"
 tag="0.29.1" # update this when new version is available
 
 echo -e "\e[36mDownloading gecko driver v${tag}-linux64...\e[0m"
-wget -q -O $gecko_filename "https://github.com/mozilla/geckodriver/releases/download/v${tag}/geckodriver-v0.29.1-linux64.tar.gz"
+wget -q -O $gecko_filename "https://github.com/mozilla/geckodriver/releases/download/v${tag}/geckodriver-v${tag}-linux64.tar.gz"
 # check if success
 echo -e "\e[32mSuccessfully downloaded gecko zipped file.\e[0m\n"
 
