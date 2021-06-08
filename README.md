@@ -8,7 +8,7 @@ It fills out `Theory` and `Practical` feedbacks without you having to do any wor
 
 1. `pip3 install selenium`
 
-2. Install geckodriver from `https://github.com/mozilla/geckodriver/releases/`
+2. `make install`
 
 3. Edit the script and put in your username and password for ERP
 
@@ -18,3 +18,5 @@ It fills out `Theory` and `Practical` feedbacks without you having to do any wor
 
 6. Here be dragons ;)
 
+## To remove the downloaded files
+`make rm`
