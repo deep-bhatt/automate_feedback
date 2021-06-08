@@ -8,7 +8,7 @@ wget -q -O $gecko_filename "https://github.com/mozilla/geckodriver/releases/down
 echo -e "\e[32mSuccessfully downloaded gecko zipped file.\e[0m\n"
 
 echo -e "\e[36mListing files...\e[0m"
-ls -c1 -l --color=auto
+ls -l --color=auto
 echo
 
 echo -e "\e[36mUnzipping $gecko_filename...\e[0m"
