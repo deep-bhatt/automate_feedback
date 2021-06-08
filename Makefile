@@ -1,4 +1,6 @@
 install:
+	@echo "\e[44mINSTALLING PYTHON DEPENDENCIES\e[0m"
+	pip3 install -r ./requirements.txt
 	@echo "\e[44mRUNNING INSTALL SCRIPT\e[0m"
 	./install.sh
 rm:
