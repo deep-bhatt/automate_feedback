@@ -2,12 +2,13 @@
 
 from selenium.webdriver import Firefox
 from selenium.webdriver.firefox.options import Options
+from os import environ
 import time
 import random
 
-USERNAME = 'SXXXXXXXXX'
-PASSWORD = 'YOUR_PASSWORD_HERE'
-URI = 'http://erp.tcetmumbai.in/'
+USERNAME = environ['ERP_USERNAME']
+PASSWORD = environ['ERP_PASSWORD']
+URI = environ['ERP_URL']
 
 def login():
     # Select fields for login
