@@ -7,7 +7,7 @@ T_LBLUE="\e[36m"
 B_GREEN="\e[42m"
 
 gecko_filename="gecko_tar"
-tag="0.29.1" # update this when new version is available
+tag="0.30.0" # update this when new version is available
 
 echo -e "${T_LBLUE}Downloading gecko driver v${tag}-linux64... ${RESET}"
 wget -q -O $gecko_filename "https://github.com/mozilla/geckodriver/releases/download/v${tag}/geckodriver-v${tag}-linux64.tar.gz"
